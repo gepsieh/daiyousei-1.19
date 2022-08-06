@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Daiyousei Mod
 
-## Setup
+## Introduction
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Daiyousei Mod is a mod that adds a few things associated with Daiyousei and Touhou Project.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+MIT License
