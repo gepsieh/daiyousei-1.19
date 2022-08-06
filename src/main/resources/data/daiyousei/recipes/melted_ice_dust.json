@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "daiyousei:ice_dust"
+  },
+  "result": "daiyousei:melted_ice_dust"
+}
