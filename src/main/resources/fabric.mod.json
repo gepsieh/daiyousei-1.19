@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "daiyousei",
+  "version": "${version}",
+
+  "name": "Daiyousei",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "heispeg"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.heispeg.daiyousei.Daiyousei"
+    ],
+    "client": [
+      "net.heispeg.daiyousei.DaiyouseiClient"
+    ]
+  },
+
+  "mixins": [
+    "daiyousei.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
