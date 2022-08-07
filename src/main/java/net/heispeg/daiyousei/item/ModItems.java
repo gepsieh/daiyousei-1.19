@@ -2,6 +2,7 @@ package net.heispeg.daiyousei.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.heispeg.daiyousei.Daiyousei;
+import net.heispeg.daiyousei.item.custom.TheWandOfLoveItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -13,6 +14,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.DAIYOUSEI)));
     public static final Item MELTED_ICE_DUST = registerItem("melted_ice_dust",
             new Item(new FabricItemSettings().group(ModItemGroup.DAIYOUSEI)));
+    public static final Item THE_WAND_OF_LOVE = registerItem("the_wand_of_love",
+            new TheWandOfLoveItem(new FabricItemSettings().group(ModItemGroup.DAIYOUSEI)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Daiyousei.MOD_ID, name), item);

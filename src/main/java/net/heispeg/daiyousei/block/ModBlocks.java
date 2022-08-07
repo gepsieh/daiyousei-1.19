@@ -3,6 +3,7 @@ package net.heispeg.daiyousei.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.heispeg.daiyousei.Daiyousei;
+import net.heispeg.daiyousei.block.custom.HuggerBlock;
 import net.heispeg.daiyousei.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -18,6 +19,9 @@ public class ModBlocks {
     public static final Block DAILEMENT_ORE = registerBlock("dailement_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f)
                     .requiresTool(),UniformIntProvider.create(3,7)),ModItemGroup.DAIYOUSEI);
+    public static final Block HUGGER_BLOCK = registerBlock("hugger_block",
+            new HuggerBlock(FabricBlockSettings.of(Material.WOOL).strength(1.5f))
+            ,ModItemGroup.DAIYOUSEI);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name, block, tab);

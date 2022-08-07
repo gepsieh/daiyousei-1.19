@@ -4,9 +4,10 @@
   "package": "net.heispeg.daiyousei.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "WandFunc"
   ],
   "client": [
-    "ExampleMixin"
+    "WandFunc"
   ],
   "injectors": {
     "defaultRequire": 1
